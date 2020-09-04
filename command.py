@@ -18,7 +18,7 @@ class MyCommand:
         @self.bot.command()
         async def 도움말(ctx):
             embed = discord.Embed(
-                title=f':fire: 안녕하세요, 저는 {settings.BOT_NAME}입니다!', description=f'저는 이런 기능들을 가지고 있어요!\n궁금하신건 `{settings.DEVELOPER}`에게 물어봐주세요!', color=settings.MAIN_COLOR)
+                title=f':schlion: 안녕하세요, 저는 {settings.BOT_NAME}입니다!', description=f'저는 이런 기능들을 가지고 있어요!\n궁금하신건 `{settings.DEVELOPER}`에게 물어봐주세요!', color=settings.MAIN_COLOR)
             embed.add_field(name='일반', value='`뽑기 <숫자>`')
             embed.add_field(name='운영진', value='`섞기`, `목록`, `설정`')
             await ctx.send(embed=embed)
