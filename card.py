@@ -1,5 +1,5 @@
 import time, random
-import keyboard
+# import keyboard
 
 class Setting:
     CARDS = [
